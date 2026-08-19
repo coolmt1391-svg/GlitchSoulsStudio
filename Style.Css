@@ -1,0 +1,269 @@
+@font-face {
+    font-family: Normal;
+    src: url(font/Normal.ttf);
+}
+@font-face {
+    font-family: Main1;
+    src: url(font/Main.ttf);
+}
+@font-face {
+    font-family: Main2;
+    src: url(font/Main2.ttf);
+}
+@font-face {
+    font-family: Main3;
+    src: url(font/Main3.ttf);
+}
+@font-face {
+    font-family: Main4;
+    src: url(font/Main-Black.ttf);
+}
+@font-face {
+    font-family: Main5;
+    src: url(font/Main4.ttf);
+}
+@font-face {
+    font-family: Script;
+    src: url(font/Script.ttf);
+}
+@font-face {
+    font-family: Script1;
+    src: url(font/Script1.ttf);
+}
+@font-face {
+    font-family: Script2;
+    src: url(font/Script2.ttf);
+}
+@font-face {
+    font-family: Script3;
+    src: url(font/Script3.ttf);
+}
+@font-face {
+    font-family: Script4;
+    src: url(font/Script4.ttf);
+}
+
+
+
+
+/* 🔼---------- Fonts ----------🔼 */
+
+@keyframes slideinleft {
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    /* --- animation: slideinleft 0.8s ease-out forwards; --- */   
+}
+@keyframes ShowSlide {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    /* --- animation: ShowSlide 0.8s ease-out forwards; --- */   
+}
+
+/* 🔼---------- Anime ----------🔼 */
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+#infosite{
+    margin-bottom: -100px;
+}
+#GSSLOGO{
+    opacity: 0.3;
+    position: relative;
+    top: -180px;
+    left: -270px;
+}
+body{
+    background-image: url(imgs/Code-platform.png);
+    background-size: 250px;
+    color: #1EDFF8;
+    font-family: Script4;
+}
+.designwork{
+    opacity: 0.2;
+    position: relative;
+    top: -110px;
+    left: 290px;
+}
+.license img{
+    width: 10px;
+}
+.scroll-down{
+    color: #1EDFF8;
+    font-size: small;
+}
+img{
+    filter: invert(100%) brightness(2);
+}
+#Head-div{
+    text-align: center;
+}
+h3 span{
+    color: #1EDFF8;
+    font-family: Script4;
+}
+#Head-div h1{
+    color: white;
+    font-family: Main3;
+    font-size: 60px;
+}
+#Head-div h2{
+    margin-top: -45px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Main3;
+    font-size: 60px;
+}
+#Head-div h3{
+    color: white;
+    font-family: Script3;
+    margin-top: -190px;
+    font-size: 16px;
+    color: #1EDFF8;
+    text-align: left;
+    display: inline-block;
+}
+#main{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-family: Main1;
+    margin-top: -70px;
+}
+#main .dev{
+    font-family: Main5;
+}
+#About h2{
+    text-align: center;
+    font-family: Main5;
+    margin-top: 50px;
+    padding-right: 90px;
+}
+#main h3{
+    font-family: Script4;
+    margin-top: -40px;
+    font-size: 20px;
+    display: inline-block;
+}
+h3 p{
+    text-align: left;
+}
+#About{
+    display: inline-block;
+    animation: slideinleft 0.8s ease-out forwards;
+}
+#link-icon{
+    text-decoration: none;
+    color: #1EDFF8;
+}
+.work{
+    color: #1EDFF8;
+    font-size: 12.5px;
+    /*padding-top: -100px;*/
+    font-family: Script4;
+    
+    animation: slideinleft 1.0s ease-out forwards;
+}
+.dev h1{
+    font-size: 50px;
+    /*margin-bottom: 10px;*/
+    
+    animation: slideinleft 0.9s ease-out forwards;
+}
+.license{
+    font-family: Main1;
+
+    animation: slideinleft 1.1s ease-out forwards;
+}
+.dev img{
+    width: 50px;
+}
+footer{
+    text-align: center;
+}
+#GSS{
+    width: 350px;
+}
+#footer h1{
+    font-family: Main3;
+    color: white;
+    font-size: 50px;
+}
+#Discord{
+    color: white;
+    font-family: Script2;
+}
+#Youtube{
+    color: white;
+    font-family: Script2;
+}
+#Telegram{
+    color: white;
+    font-family: Script2;
+}
+#footer div{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#footer div img{
+    width: 30px;
+}
+#footer div a img{
+    width: 20px;
+    margin-left: -10px;
+    position: relative;
+    top: 4px;
+}
+#footer div a{
+    text-decoration: none;
+    color: #1EDFF8;
+}
+#Copyright{
+    color: white;
+    font-family: Normal;
+    font-size: 20px;
+}
+#icons8{
+    color: white;
+    font-family: Script2;
+    font-size: 20px;
+}
+#icons8 a{
+    color: white;
+}
+#TagMenu a{
+    color: #1EDFF8;
+    text-decoration: none;
+    
+}
+#Menu a{
+    color: white;
+    text-decoration: none;
+}
+#Menu{
+    position: fixed;
+    left: 40px;
+    top: 10px;
+    color: white;
+}
+.Menu-Ui{
+    position: relative;
+    top: 5px;
+}
+.Link-Ico-PlatForm img{
+    position: relative;
+    top: 7px;
+}

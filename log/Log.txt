@@ -1,0 +1,11 @@
+Martin Taylor
+serves as the Team Leader of Glitch Souls Studio. He holds a pivotal role in game development, overseeing both programming and narrative design. His technical expertise and narrative insight define the core direction of the project.
+
+Leo
+is a Python developer and a key contributor to the team's GML-based development efforts. He plays a significant role in streamlining development workflows and optimizing game performance.
+
+Ali
+is the team's Artist, Designer, and Writer. His creative vision and unwavering dedication to crafting compelling gameplay have been instrumental in shaping the overall player experience.
+
+Amir
+is the driving force behind both narrative and programming. As a developer skilled in C#, SQL, and GML, combined with his strengths in storytelling, he has had a profound impact on the creation and enrichment of the game's world.
